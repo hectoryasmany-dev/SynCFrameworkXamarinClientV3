@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BIT.Data.Transfer.RestClientNet" Version="21.1.3.5841" />
+    <PackageReference Include="BIT.Xpo.Providers.OfflineDataSync.Demo" Version="21.1.3.24" />
+    <PackageReference Include="BIT.Xpo.Providers.OfflineDataSync.NetworkExtensions.Demo" Version="21.1.3.24" />
+    <PackageReference Include="DevExpress.ExpressApp.Security.Xpo" Version="21.1.3" />
+    <PackageReference Include="DevExpress.ExpressApp.Validation" Version="21.1.3" />
+    <PackageReference Include="DevExpress.ExpressApp.Xpo" Version="21.1.3" />
+    <PackageReference Include="DevExpress.Persistent.BaseImpl" Version="21.1.3" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="3.1.5" />
+    <PackageReference Include="Prism.DryIoc.Forms" Version="7.2.0.1367" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Orm\Orm.csproj" />
+  </ItemGroup>
+
+</Project>
